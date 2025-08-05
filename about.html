@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        color1: "#f6f8fc",
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header>
+        <!-- 1st nav  -->
+        <nav
+            class="bg-black hidden md:block h-[40px] md:flex justify-between md:text-sm items-center md:px-10 text-white">
+            <ul class="flex justify-center gap-2">
+                <li>+08648362881</li>
+                <li>lollipop13@gmail.com</li>
+            </ul>
+            <ul class="flex justify-center gap-4  items-center">
+                <li><a href="">Shoppind and Payment</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Blog</a></li>
+            </ul>
+        </nav>
+
+        <div class=" h-80 md:h-[400px] py-10"
+            style="background: linear-gradient(to right, #d8ebf5, #dfd6f8, #cee1f2, #d5cfe4, #e0f2fc);">
+            <!-- nav 2 -->
+            <nav class="nav-2 hidden md:block md:flex justify-between absolute right-2 left-2 top-20 px-8 items-center">
+                <ul class="flex gap-5 font-semibold justify-center  uppercase text-sm ">
+                    <li><img class="w-[90px] items-center" src="images/01.png" alt=""></li>
+                    <li class="mt-3"><a href="">Makeup</a></li>
+                    <li class="mt-3"><a href="">Body</a></li>
+                    <li class="mt-3"><a href="">Face</a></li>
+                    <li class="mt-3"><a href="">Perfumary</a></li>
+                    <li class="mt-3"><a href="">Accesories</a></li>
+                    <li class="mt-3"><a href="">Promotions</a></li>
+                </ul>
+                <ul class="flex gap-5 justify-center mb-2">
+                    <li><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                    <li><a href=""><i class="fa-solid fa-user"></i></a></li>
+                    <li><a href=""><i class="fa-solid fa-heart"></i></a></li>
+                    <li><a href=""> <i class="fa-solid fa-bag-shopping">
+                                <p class=" bg-orange-400 rounded-full absolute -mt-7 ml-2 px-1 text-white text-xs">0</p>
+                            </i></a></li>
+                </ul>
+            </nav>
+            <!-- Profile part -->
+            <div class="flex justify-center gap-28 items-center">
+                <div>
+                    <img class=" hidden md:block mt-20" src="images/art2.png" alt="">
+                </div>
+                <div class="text-center">
+                    <h1 class="text-2xl md:text-2xl lg:text-5xl font-semibold ml-2 mt-14 md:mr-20 md:mt-18 ">
+                        About</h1>
+                    <div class="flex items-center gap-4 md:my-8 md:ml-5 ml-0 text-sm">
+                        <p><a href="home.html">Home</a></p>
+                        <div class="flex items-center gap-1">
+                            <i class="fa-solid fa-circle-dot text-[5px]" style="color: #f2b830;"></i>
+                            <p class="font-semibold flex items-center gap-2">About</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <img class="w-96 hidden md:block mt-4" src="images/art3.png" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- flex section  -->
+        <section class="pb-10 px-5">
+            <div class="max-w-5xl mx-auto px-5 mt-30">
+                <div class="flex flex-col-reverse md:flex-row items-center justify-center">
+                    <div class="flex flex-col justify-center items-center text-center mb-5 px-5 max-w-96">
+                        <img class="max-w-40 md:max-w-70 object-cover" src="images/art4.png" alt="">
+                        <h2 class="text-3xl font-semibold mb-4 text-gray-900">Unique Collection</h2>
+                        <p class="text-sm leading-relaxed text-gray-600">
+                            More than 4,500 brands and 200,000 products - our team knows what is relevant today
+                            and
+                            the appearance of which brands will cause excitement among true connoisseurs of
+                            cosmetics and perfumes. World brands from, unknown and exclusive premieres, rare
+                            fragrances and brands.
+                        </p>
+                    </div>
+                    <div class="max-w-96 mb-5 md:mb-0 overflow-hidden">
+                        <img src="images/12.jpeg" class="max-w-full h-full object-cover">
+                    </div>
+                </div>
+
+                <!-- card-2 -->
+
+                <div class="flex items-center md:flex-row flex-col justify-center">
+                    <div class="max-w-96 mb-5 md:mb-0 overflow-hidden">
+                        <img src="images/square1.jpeg" class="max-w-full h-full object-cover">
+                    </div>
+
+                    <div class="flex flex-col justify-center items-center text-center mb-5 px-5 max-w-96">
+                        <img class="max-w-40 md:max-w-70 object-cover" src="images/art5.png" alt="">
+                        <h2 class="text-3xl font-semibold mb-4 text-gray-900">Beauty Club</h2>
+                        <p class="text-sm leading-relaxed text-gray-600">
+                            Lollipop is a beauty media empire. Reviews, swatches, tests, secrets and expert
+                            advice -
+                            you will find all this at Lollipop Beauty Club! More than 1.5 million Facebook
+                            subscribers, more than 500 thousand Instagram followers, Youtube channel, online
+                            digest,
+                            beauty editorial blog and over 2 million product reviews.
+                        </p>
+                    </div>
+                </div>
+                <!-- card-3 -->
+
+                <div class="flex flex-col-reverse md:flex-row items-center justify-center">
+                    <div class="flex flex-col justify-center items-center text-center mb-5 px-5 max-w-96">
+                        <img class="max-w-40 md:max-w-96 object-cover" src="images/art5.png" alt="">
+                        <h2 class="text-3xl font-semibold mb-4 text-gray-900">Online Shopping</h2>
+                        <p class="text-sm leading-relaxed text-gray-600">
+                            We minimize the need to spend time, energy and emotions of our successful clients on
+                            exhausting offline shopping by regularly improving the site. With the help of a
+                            smartphone camera and our beauty scanner, you will find the product you are
+                            interested in on the Lollipop page in a matter of seconds.
+                        </p>
+                    </div>
+
+                    <div class="max-w-96 mb-5 md:mb-0  overflow-hidden">
+                        <img src="images/12.jpeg" class="max-w-full h-full object-cover">
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+        <!--icon section- 2 -->
+        <section class="max-w-5xl mx-auto my-20">
+            <div class="flex justify-between flex-col gap-3 md:flex-row items-center my-5">
+                <div class="text-center">
+                    <img class=" w-20 mx-auto" src="images/1.png" alt="">
+                    <h1 class="text-2xl font-semibold">Originals</h1>
+                    <p class="text-sm text-gray-500 text-center"> All cosmetics are original. We save <br> you time for
+                        the really important <br> things!
+                    </p>
+
+                </div>
+                <div class="text-center">
+                    <img class=" w-30 mx-auto" src="images/2.png" alt="">
+                    <h1 class="text-2xl font-semibold">Return</h1>
+                    <p class="text-sm text-gray-500 text-center">14 days to return the goods. We save <br> you time for
+                        the really important <br> things!</p>
+
+                </div>
+                <div class="text-center">
+                    <img class=" w-30 mx-auto" src="images/3.png" alt="">
+                    <h1 class="text-2xl font-semibold">Safety</h1>
+                    <p class="text-sm text-gray-500 text-center">Secure payment all data is protected. <br> We save you
+                        time for <br> the really!</p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+<!-- footer section  -->
+<footer class="bg-black text-gray-600 py-12">
+    <div class="max-w-5xl mx-auto px-4 md:px-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-18">
+        <div>
+            <h2 class="text-lg font-semibold text-white mb-4">Contact Us</h2>
+            <p class="flex items-center gap-2 text-sm mb-2">
+                <i class="fas fa-phone text-pink-400"></i> +1.866.996.2000
+            </p>
+            <p class="flex items-center gap-2 text-sm mb-4">
+                <i class="fas fa-envelope text-pink-400"></i> lollin@gmail.com
+            </p>
+            <div class="flex gap-4 items-center text-lg ">
+                <i class="fab  rounded-full  fa-facebook-f cursor-pointer"></i>
+                <i class="fab  rounded-full fa-twitter cursor-pointer"></i>
+                <i class="fab rounded-full  fa-instagram cursor-pointer"></i>
+                <i class="fab rounded-full  fa-youtube cursor-pointer"></i>
+            </div>
+        </div>
+        <div>
+            <h2 class="text-lg font-semibold text-white mb-4">Help</h2>
+            <ul class="space-y-2 text-sm">
+                <li><a href="catagory.html" class="hover:text-white">Catagories</a></li>
+                <li><a href="checkout.html" class="hover:text-white">Checkout</a></li>
+                <li><a href="shop.html" class="hover:text-white">Shopping Details</a></li>
+                <li><a href="cart.html" class="hover:text-white">Shopping cart</a></li>
+                <li><a href="" class="hover:text-white">Privacy Policy </a></li>
+
+            </ul>
+        </div>
+        <div>
+            <h2 class="text-lg font-semibold text-white mb-4">Support</h2>
+            <ul class="space-y-2 text-sm">
+                <li><a href="about.html" class="hover:text-white">About us</a></li>
+                <li><a href="Contact.html" class="hover:text-white">Contact Us</a></li>
+                <li><a href="errorPage.html" class="hover:text-white">Error Page</a></li>
+                <li><a href="register.html" class="hover:text-white">Register</a></li>
+                <li><a href="login.html" class="hover:text-white">Log in</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2 class="text-lg font-semibold text-white mb-4">Information</h2>
+            <ul class="space-y-2 text-sm">
+                <li><a href="product.html" class="hover:text-white">Product</a></li>
+                <li><a href="wishlist.html" class="hover:text-white">Wishlist</a></li>
+                <li><a href="faq.html" class="hover:text-white">FAQ & Help Docs</a></li>
+                <li><a href="profile.html" class="hover:text-white">Profile</a></li>
+                <li><a href="blog.html" class="hover:text-white">Blog</a></li>
+            </ul>
+        </div>
+    </div>
+    <div
+        class="border-t border-gray-700 mt-5 md:mt-10 pt-6 max-w-5xl mx-auto flex flex-col md:flex-row justify-between items-center px-4 md:px-7">
+        <p class="text-sm text-gray-600">copyright&copy;2021 Lolli. All Rights Reserved</p>
+        <img src="images/vishaCard.png" alt="">
+    </div>
+</footer>
